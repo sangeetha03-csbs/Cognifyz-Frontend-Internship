@@ -1,0 +1,25 @@
+$primary-color: blue;
+$secondary-color: green;
+$bg-color: #f4f4f4;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $bg-color;
+}
+
+h1 {
+    color: $primary-color;
+}
+
+p {
+    color: $secondary-color;
+}
+
+button {
+    background-color: $primary-color;
+    color: white;
+
+    &:hover {
+        background-color: darkblue;
+    }
+}
